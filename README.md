@@ -73,14 +73,15 @@ state = { contacts: [], filter: '' }
 
 После рефакторинга корневой компонент приложения будет выглядеть так.
 
-<div>
+"<div>
+
   <h1>Phonebook</h1>
   <ContactForm ... />
 
   <h2>Contacts</h2>
   <Filter ... />
   <ContactList ... />
-</div>
+</div>"
 
 ## Шаг 5
 
